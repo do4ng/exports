@@ -2,6 +2,8 @@
 
 Get exports of commonjs or esmodule.
 
+> Warning: This package uses `require` (in commonjs) or `import` (in esm) to load the module and then extract its exports. That is, `module.exports` or `export {}` is imported by directly executing the javascript code rather than parsing it.
+
 ## Examples
 
 ```js
